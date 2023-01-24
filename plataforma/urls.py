@@ -4,9 +4,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('cadastro/', views.cadastro, name='cadastro'),
-    path('logar/', views.logar, name='logar'),
-    path('sair/', views.sair, name="sair")
+    path('', views.home, name='home')
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
