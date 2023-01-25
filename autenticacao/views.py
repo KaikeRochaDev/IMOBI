@@ -22,7 +22,7 @@ def cadastro(request):
                                  'Preencha todos os campos')
             return redirect('/auth/cadastro')
         
-        if len(senha) >= 5:
+        if len(senha) <= 5:
             messages.add_message(request, constants.ERROR, 'Sua senha deve conter 6 ou mais caracteres')
         
         user = User.objects.filter(username=username)
