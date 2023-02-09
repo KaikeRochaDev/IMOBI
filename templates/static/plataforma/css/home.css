@@ -50,6 +50,11 @@
 
 }
 
+.btn_filtrar:hover{
+    background-color: #30CD9E;
+    color: white;
+}
+
 
 .titulo_filtrar{
 

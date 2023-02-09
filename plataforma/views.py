@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
 from .models import Imovei, Cidade, Visitas
 import datetime
+from django.http import HttpResponse
 
 @login_required(login_url='/auth/logar/')
 def home(request):
@@ -21,7 +22,7 @@ def home(request):
 
         imoveis = Imovei.objects.filter(valor__gte=preco_minimo)\
             .filter(valor__lte=preco_maximo)\
-            .filter(tipo_imovel__in=tipo).filter(cidade=cidade)
+            .filter(tipo_imovel__in=tipo).filter(cidade=cidade)   
     else:
         imoveis = Imovei.objects.all()
 
