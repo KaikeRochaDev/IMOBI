@@ -7,6 +7,7 @@
 - 🗃 Processo de filtragem dos imóveis com base no valor, tipo e localidade; <br>
 - 🗓 Processo de agendamento e cancelamentos de visitas aos imóveis <br>
 
+<br>
 As ferramentas que foram usadas neste projeto:
 
 - [Python](https://www.python.org/)
