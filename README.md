@@ -6,3 +6,11 @@
 - 🏢 Uma página home com uma lista de todos os imóveis cadastrados no sistema (essa página fica disponível somente para usuários logados); <br>
 - 🗃 Processo de filtragem dos imóveis com base no valor, tipo e localidade; <br>
 - 🗓 Processo de agendamento e cancelamentos de visitas aos imóveis <br>
+
+As ferramentas que foram usadas neste projeto:
+
+- [Python](https://www.python.org/)
+- [Django](https://www.djangoproject.com/)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Bootstrap](https://getbootstrap.com/)
